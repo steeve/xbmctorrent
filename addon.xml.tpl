@@ -2,17 +2,14 @@
 <addon id="plugin.video.xbmctorrent" name="XBMCtorrent" version="$VERSION" provider-name="steeve">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.xbmcswift2" version="2.4.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-<!--     <extension point="xbmc.service" library="service.py" start="startup">
-    </extension>
- -->    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
+    <extension point="xbmc.addon.metadata">
+        <platform>osx64</platform>
         <language></language>
-        <summary>Summary for "XBMCtorrent"</summary>
-        <description>Description for "XBMCtorrent"</description>
+        <summary>Watch torrents directly from XBMC.</summary>
+        <description>Watch torrents directly from XBMC.</description>
     </extension>
 </addon>
