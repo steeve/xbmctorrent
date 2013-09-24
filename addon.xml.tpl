@@ -7,7 +7,7 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <platform>linux osx64</platform>
+        <platform>wingl windx linux osx64</platform>
         <language></language>
         <summary>Watch torrents directly from XBMC.</summary>
         <description>Watch torrents directly from XBMC.</description>
