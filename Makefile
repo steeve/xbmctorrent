@@ -1,5 +1,5 @@
 NAME = plugin.video.xbmctorrent
-VERSION := 0.1.$(shell git rev-list HEAD --count)
+VERSION := 0.2.$(shell git rev-list HEAD --count)
 ZIP_FILE := $(NAME)_$(VERSION).zip
 
 all: clean version zip
