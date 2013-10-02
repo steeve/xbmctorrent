@@ -8,6 +8,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>wingl windx linux osx64</platform>
+        <source>https://github.com/steeve/xbmctorrent</source>
         <language></language>
         <summary>Watch torrents directly from XBMC.</summary>
         <description>Watch torrents directly from XBMC.</description>
