@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+<!--
+    <setting id="download_path" type="folder" label="Download Path" source="auto" option="writeable"/>
+    <setting id="torrent_keep_after_close" type="bool" label="Keep file data after playback stops" default="false"/>
+ -->
+    <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false"/>
+</settings>
