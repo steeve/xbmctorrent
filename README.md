@@ -71,3 +71,5 @@ And finally, of course you can disable it altogether in the addon settings.
 
 #### How can I report a bug?
 Please, file an issue :)
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/f2446cd214777b8a29828a85fb93e936 "githalytics.com")](http://githalytics.com/steeve/xbmctorrent)
