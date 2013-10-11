@@ -9,7 +9,7 @@ Demo
 ----
 http://www.youtube.com/watch?v=NQiC62ig3N0
 
-[![XBMCtorrent Demo Video](http://img.youtube.com/vi/NQiC62ig3N0/0.jpg)](http://www.youtube.com/watch?v=NQiC62ig3N0)
+[![XBMCtorrent Demo Video](http://i.ytimg.com/vi/NQiC62ig3N0/maxresdefault.jpg)](http://www.youtube.com/watch?v=NQiC62ig3N0)
 
 Supported Platforms
 -------------------
