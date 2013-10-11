@@ -40,8 +40,8 @@ FAQ
 It works with most. Some torrents are known not to work. However, x264 and Xvid ones generally work pretty well, although some won't work yet. Some AVI files don't like to be streamed over HTTP, so YMMV. Of course, the goal is to shrink the number of torrents that don't work.
 
 #### Can I seek in a video?
-Issue: [steeve/torrent2http#1](https://github.com/steeve/torrent2http/issues/1)
-Not yet. This is scheduled, but currently if you try to seek into a video, it won't work and will stop playback.
+
+Not yet. This is scheduled, but currently if you try to seek into a video, it won't work and will stop playback. See issue [steeve/torrent2http#1](https://github.com/steeve/torrent2http/issues/1) about that.
 
 #### Can it stream HD?
 Of course! 720p and 1080p work fine, provided you have enough bandwidth, and there are enough people on the torrent (see video).
