@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-<!--
-    <setting id="download_path" type="folder" label="Download Path" source="auto" option="writeable"/>
-    <setting id="torrent_keep_after_close" type="bool" label="Keep file data after playback stops" default="false"/>
- -->
-    <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false"/>
+    <setting label="Download" type="lsep"/>
+    <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable"/>
+    <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false"/>
+
+    <setting label="Limits (kB/s)" type="lsep"/>
+    <setting id="max_upload_rate" label="Max Upload Rate" type="number" default="" />
+    <setting id="max_download_rate" label="Max Download Rate" type="number" default="" />
+
+    <setting label="Google Analytics" type="lsep"/>
+    <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false" />
 </settings>
