@@ -16,7 +16,7 @@ Supported Platforms
 * Windows x32 x64
 * OS X x64
 * Linux x64
-* Raspberry Pi (very early)
+* Raspberry Pi
 
 How it works
 ------------
@@ -40,8 +40,7 @@ FAQ
 It works with most. Some torrents are known not to work. However, x264 and Xvid ones generally work pretty well, although some won't work yet. Some AVI files don't like to be streamed over HTTP, so YMMV. Of course, the goal is to shrink the number of torrents that don't work.
 
 #### Can I seek in a video?
-
-Not yet. This is scheduled, but currently if you try to seek into a video, it won't work and will stop playback. See issue [steeve/torrent2http#1](https://github.com/steeve/torrent2http/issues/1) about that.
+Yes, although now if you try to seek to a part you haven't downloaded yet, XBMC will wait for that part to be available. This will be fixed in a future release.
 
 #### Can it stream HD?
 Of course! 720p and 1080p work fine, provided you have enough bandwidth, and there are enough people on the torrent (see video).
@@ -61,8 +60,8 @@ Yes and yes. XBMCtorrent will pre-allocate the whole file before download. So if
 #### Where is the file located? Can I change it?
 Currently the file is download in the same directory as the torrent2http executable (in resources/bin/<OS>/ in the addon directory). You cannot change it yet, but that will be configurable in the near future.
 
-#### Can I keep it after playback?
-Not yet, but there will be a flag to enable that.
+#### Can I keep the file after playback?
+Yes, just enable this option in the addon settings.
 
 #### Why are you using Google Analytics? Can I disable it?
 First of all, your whole IP isn't tracked. Only the first 3 parts of it, thanks to Analytics [Anonymous Mode](https://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApi_gat?csw=1#_gat._anonymizeIp). So for instance, if your IP is A.B.C.D, only A.B.C.0 will be logged.
