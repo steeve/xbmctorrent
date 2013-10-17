@@ -1,5 +1,6 @@
 NAME = plugin.video.xbmctorrent
-VERSION := $(shell git describe)
+GIT_VERSION := $(shell git describe)
+VERSION := $(shell git describe | sed s/\^v//g)
 ZIP_FILE := $(NAME)_$(VERSION).zip
 
 all: clean version zip
@@ -8,7 +9,7 @@ version:
 	sed s/\$$VERSION/$(VERSION)/g < addon.xml.tpl > addon.xml
 
 zip:
-	git archive --prefix $(NAME)/ $(VERSION) | tar -x -C /tmp
+	git archive --prefix $(NAME)/ $(GIT_VERSION) | tar -x -C /tmp
 	sed s/\$$VERSION/$(VERSION)/g < addon.xml.tpl > /tmp/$(NAME)/addon.xml
 	cp -R resources/bin /tmp/$(NAME)/resources
 	rm -f /tmp/$(NAME)/addon.xml.tpl
