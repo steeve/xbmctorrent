@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-    <setting label="Download" type="lsep"/>
-    <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable"/>
-    <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false"/>
+    <category label="General">
+        <setting label="Download" type="lsep" />
+        <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable" />
+        <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false" />
 
-    <setting label="Limits (kB/s)" type="lsep"/>
-    <setting id="max_upload_rate" label="Max Upload Rate" type="number" default="" />
-    <setting id="max_download_rate" label="Max Download Rate" type="number" default="" />
+        <setting label="BitTorrent options" type="lsep" />
+        <setting id="max_upload_rate" label="Max Upload Rate (kB/s)" type="number" default="" />
+        <setting id="max_download_rate" label="Max Download Rate (kB/s)" type="number" default="" />
+    </category>
+    <category label="Advanced">
+        <setting label="Custom domains" type="lsep"/>
+        <setting id="domain_eztv" type="text" label="EZTV" default="eztv.it" />
+        <setting id="domain_yify" type="text" label="YIFY Torrents" default="yify-torrents.com" />
+        <setting id="domain_kickass" type="text" label="Kickass Torrents" default="kickass.to" />
+        <setting id="domain_tpb" type="text" label="The Pirate Bay" default="thepiratebay.sx" />
 
-    <setting label="Google Analytics" type="lsep"/>
-    <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false" />
+        <setting label="Google Analytics" type="lsep"/>
+        <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false" />
+    </category>
 </settings>
