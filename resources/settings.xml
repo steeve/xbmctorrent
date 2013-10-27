@@ -18,6 +18,6 @@
         <setting id="base_tpb" type="text" label="The Pirate Bay" default="https://thepiratebay.sx" />
 
         <setting label="Google Analytics" type="lsep"/>
-        <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false" />
+        <setting id="ga_disable" type="bool" label="Disable (except for index)" default="false" />
     </category>
 </settings>
