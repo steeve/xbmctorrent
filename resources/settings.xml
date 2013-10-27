@@ -12,10 +12,10 @@
     </category>
     <category label="Advanced">
         <setting label="Custom domains" type="lsep"/>
-        <setting id="domain_eztv" type="text" label="EZTV" default="eztv.it" />
-        <setting id="domain_yify" type="text" label="YIFY Torrents" default="yify-torrents.com" />
-        <setting id="domain_kickass" type="text" label="Kickass Torrents" default="kickass.to" />
-        <setting id="domain_tpb" type="text" label="The Pirate Bay" default="thepiratebay.sx" />
+        <setting id="base_eztv" type="text" label="EZTV" default="https://eztv.it" />
+        <setting id="base_yify" type="text" label="YIFY Torrents" default="https://yify-torrents.com" />
+        <setting id="base_kickass" type="text" label="Kickass Torrents" default="https://kickass.to" />
+        <setting id="base_tpb" type="text" label="The Pirate Bay" default="https://thepiratebay.sx" />
 
         <setting label="Google Analytics" type="lsep"/>
         <setting id="ga_disable" type="bool" label="Disable Google Analytics" default="false" />
