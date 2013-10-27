@@ -7,11 +7,6 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.addon.repository" name="XBMCtorrent Autoupdate Repository">
-        <info compressed="false">https://xbmctorrent-repo.googlecode.com/git/addons.xml</info>
-        <checksum>https://xbmctorrent-repo.googlecode.com/git/addons.xml.md5</checksum>
-        <datadir zip="true">https://xbmctorrent-repo.googlecode.com/git/repo/</datadir>
-    </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <source>https://github.com/steeve/xbmctorrent</source>
