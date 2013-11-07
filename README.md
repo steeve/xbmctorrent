@@ -11,6 +11,14 @@ http://www.youtube.com/watch?v=NQiC62ig3N0
 
 [![XBMCtorrent Demo Video](http://i.ytimg.com/vi/NQiC62ig3N0/maxresdefault.jpg)](http://www.youtube.com/watch?v=NQiC62ig3N0)
 
+Download
+--------
+[plugin.video.xbmctorrent_0.4.1.zip](https://github.com/steeve/xbmctorrent/releases/download/v0.4.1/plugin.video.xbmctorrent-0.4.1.zip"]plugin.video.xbmctorrent_0.4.1.zip) (24 MB)
+
+Follow XBMCtorrent
+------------------
+[![Follow on Facebook](http://i.imgur.com/rwqPqe3.png)](https://www.facebook.com/xbmctorrent) [![Follow on Twitter](http://i.imgur.com/B5hiGN4.png)](https://twitter.com/XBMCtorrent)
+
 Supported Platforms
 -------------------
 * Windows x32 x64
@@ -36,8 +44,14 @@ Two threads are active, on [XBMC HUB](http://www.xbmchub.com/forums/general-vide
 
 FAQ
 ---
+#### I can't code. How can I help?
+Spread the word. Talk about it with your friends, show them, make videos, tutorials. Talk about it on social networks, blogs etc...
+
 #### Does it work with all torrents?
 It works with most. Some torrents are known not to work. However, x264 and Xvid ones generally work pretty well, although some won't work yet. Some AVI files don't like to be streamed over HTTP, so YMMV. Of course, the goal is to shrink the number of torrents that don't work.
+
+#### The plugin doesn't work at all, what can I do?
+First of all, we need to make sure it's not the torrent fault. I usually test this by searching for small serie episodes on Piratebay. Try that, if it does't work, send me your xbmc.log.
 
 #### Can I seek in a video?
 Yes, although now if you try to seek to a part you haven't downloaded yet, XBMC will wait for that part to be available. This will be fixed in a future release.
@@ -63,12 +77,35 @@ Currently the file is download in the same directory as the torrent2http executa
 #### Can I keep the file after playback?
 Yes, just enable this option in the addon settings.
 
+#### Can I set it to download directly to my NAS and keep it after playback?
+Yes of course. Just set the download directly to your NAS location, and make sure you have enabled "Keep files after playback" option.
+
 #### Why are you using Google Analytics? Can I disable it?
 First of all, your whole IP isn't tracked. Only the first 3 parts of it, thanks to Analytics [Anonymous Mode](https://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApi_gat?csw=1#_gat._anonymizeIp). So for instance, if your IP is A.B.C.D, only A.B.C.0 will be logged.
-Also, Google Analytics is a great tool to enable real data driven development. I can now concentrate on what really matters.
-And finally, of course you can disable it altogether in the addon settings.
+Second, this is my only tool to track audience interest, this is great information, and it really helps.
+Finally if you really want to, you can disable it in the addon settings (except for 1 GA event when you go in the addon).
+If you are blocking GA on your computer altogether, you'll still be able to use the addon.
 
 #### How can I report a bug?
 Please, file an issue :)
+
+#### How can I use the Play-to-XBMC feature?
+First of all, install [Play-to-XBMC](https://chrome.google.com/webstore/detail/play-to-xbmc/fncjhcjfnnooidlkijollckpakkebden) from khloke.
+Then, follow the Play-to-XBMC install instructions:
+> Setup:
+> * On XBMC, go under System > Settings > Services > Webserver
+> * Enable "Allow control of XBMC via HTTP, leave the port as default or set it to something else (if you know what you're doing). Write down the port number.
+> * Username and password are optional
+> * Right click on the 'Play to XBMC' icon and select 'Options'
+> * Put in the IP address or hostname of your XBMC box and fill in the port number with the port number you wrote down earlier. Fill in the username and password if you entered one into XBMC.
+
+Once you've done all that, simply right click on any magnet link, and select Play-to-XBMC > Play. Boom.
+
+#### Provider X is blocked in my country/ISP, how can I set another domain?
+In the addon settings, go in Advancer > Custom Domains. Here to you can set each provider with whatever proxy you choose.
+
+Changelog
+---------
+Check out the [Releases](https://github.com/steeve/xbmctorrent/releases) tab.
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/f2446cd214777b8a29828a85fb93e936 "githalytics.com")](http://githalytics.com/steeve/xbmctorrent)
