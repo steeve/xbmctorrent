@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.xbmctorrent" name="XBMCtorrent" version="$VERSION" provider-name="steeve">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.video.youtube" version="4.4.6" />
+        <import addon="xbmc.python"          version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="4.4.6"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <source>https://github.com/steeve/xbmctorrent</source>
+        <website><![CDATA[http://j.mp/xbmctorrent]]></website>
+        <forum><![CDATA[http://j.mp/xbmctorrent]]></forum>
+        <source><![CDATA[https://github.com/steeve/xbmctorrent]]></source>
         <language></language>
-        <summary>Watch torrents directly from XBMC.</summary>
-        <description>Watch torrents directly from XBMC.</description>
+        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+        <summary><![CDATA[XBMCtorrent: Torrent streaming for XBMC.]]></summary>
+        <description><![CDATA[XBMCtorrent allows you to stream bittorrent magnet links right from XBMC, without having to wait for the whole file to download, thanks to sequential download.]]></description>
     </extension>
 </addon>
