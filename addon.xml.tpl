@@ -7,6 +7,11 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
+    <extension point="xbmc.addon.repository" name="XBMCtorrent Autoupdate Repository">
+        <info compressed="true">https://xbmctorrent.herokuapp.com/addons.xml</info>
+        <checksum>https://xbmctorrent.herokuapp.com/addons.xml.md5</checksum>
+        <datadir zip="true">https://xbmctorrent.herokuapp.com</datadir>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <website><![CDATA[http://j.mp/xbmctorrent]]></website>
