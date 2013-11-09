@@ -2,22 +2,38 @@ NAME = plugin.video.xbmctorrent
 GIT = git
 GIT_VERSION = $(shell $(GIT) describe --always)
 VERSION = $(patsubst v%,%,$(GIT_VERSION))
-ZIP_FILE = $(NAME)-$(VERSION).zip
-
+ARCHS = windows_x86 darwin_x64 linux_x64 linux_arm
+ZIP_SUFFIX = zip
+ZIP_FILE = $(NAME)-$(VERSION).$(ZIP_SUFFIX)
 
 all: clean zip
+
+bootstraper:
+	mkdir -p $(NAME)
+	sed s/\$$VERSION/0.0.1/g < addon.xml.tpl > $(NAME)/addon.xml
+	cp fanart.jpg $(NAME)
+	cp icon.png $(NAME)
+	zip -9 -r $(NAME).zip $(NAME)
+	rm -rf $(NAME)
 
 addon.xml:
 	sed s/\$$VERSION/$(VERSION)/g < addon.xml.tpl > $@
 
 $(ZIP_FILE): addon.xml
 	git archive --format zip --prefix $(NAME)/ --output $(ZIP_FILE) $(GIT_VERSION)
-	mkdir $(NAME)
-	mkdir $(NAME)/resources
+	mkdir -p $(NAME)/resources/bin
 	ln -s `pwd`/addon.xml $(NAME)
-	ln -s `pwd`/resources/bin $(NAME)/resources/bin
-	zip -9 -r -g $(ZIP_FILE) $(NAME)/addon.xml $(NAME)/resources/bin
+	zip -9 -r -g $(ZIP_FILE) $(NAME)/addon.xml
+	for arch in $(ARCHS); do \
+		ln -s `pwd`/resources/bin/$$arch $(NAME)/resources/bin/$$arch; \
+		zip -9 -r -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
+	done
 	rm -rf $(NAME)
+
+zipfiles: addon.xml
+	for arch in $(ARCHS); do \
+		$(MAKE) zip ARCHS=$$arch ZIP_SUFFIX=$$arch.zip; \
+	done
 
 zip: $(ZIP_FILE)
 
