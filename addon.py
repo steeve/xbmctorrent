@@ -8,5 +8,5 @@ if __name__ == '__main__':
     except Exception, e:
         import xbmc
         import traceback
-        map(xbmc.log, line in traceback.format_exc().split("\n"))
+        map(xbmc.log, traceback.format_exc().split("\n"))
         raise
