@@ -6,6 +6,7 @@
         <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false" />
 
         <setting label="BitTorrent options" type="lsep" />
+        <setting id="magnet_boost" label="Magnet Booster" type="bool" default="true" />
         <setting id="max_upload_rate" label="Max Upload Rate (kB/s)" type="number" default="" />
         <setting id="max_download_rate" label="Max Download Rate (kB/s)" type="number" default="" />
         <setting id="encryption" label="Encryption" type="enum" values="Forced|Enabled|Disabled" default="Enabled" />
