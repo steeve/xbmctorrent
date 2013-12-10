@@ -20,5 +20,8 @@
 
         <setting label="Google Analytics" type="lsep"/>
         <setting id="ga_disable" type="bool" label="Disable (except for index)" default="false" />
+
+        <setting label="XBMC Android" type="lsep"/>
+        <setting id="android_app_id" type="text" label="Custom Android Application ID" default="org.xbmc.xbmc" />
     </category>
 </settings>
