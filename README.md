@@ -13,7 +13,7 @@ http://www.youtube.com/watch?v=NQiC62ig3N0
 
 Download
 --------
-[plugin.video.xbmctorrent_0.4.2.zip](https://github.com/steeve/xbmctorrent/releases/download/v0.4.2/plugin.video.xbmctorrent-0.4.2.zip) (24 MB)
+[plugin.video.xbmctorrent_0.5.0.zip](https://github.com/steeve/xbmctorrent/releases/download/v0.5.0/plugin.video.xbmctorrent-0.5.0.zip) (29 MB)
 
 Follow XBMCtorrent
 ------------------
@@ -22,9 +22,10 @@ Follow XBMCtorrent
 Supported Platforms
 -------------------
 * Windows x32 x64
-* OS X x64
-* Linux x64
+* OS X x32 and x64
+* Linux x32 and x64
 * Raspberry Pi
+* Android 4.0+
 
 How it works
 ------------
