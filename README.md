@@ -60,9 +60,6 @@ Yes, although now if you try to seek to a part you haven't downloaded yet, XBMC 
 #### Can it stream HD?
 Of course! 720p and 1080p work fine, provided you have enough bandwidth, and there are enough people on the torrent (see video).
 
-#### Why no Android?
-Let's just say: not yet. First of all, I don't have an Android device to test it to. Also, it [seems to be possible](https://github.com/eliasnaur/goandroid), we'll see how the demand evolves on that front.
-
 #### Doesn't sequential download on bittorrent is bad?
 Generally, yes. However, XBMCtorrent respects the same [requirements "defined" by uTorrent 3](http://www.utorrent.com/help/faq/ut3#faq2[/url]). Also, XBMCtorrent tries to make it up to the swarm by seeding while you watch the movie.
 
