@@ -16,7 +16,7 @@
         <setting id="base_eztv" type="text" label="EZTV" default="http://eztv.it" />
         <setting id="base_yify" type="text" label="YIFY Torrents" default="http://yify-torrents.com" />
         <setting id="base_kickass" type="text" label="Kickass Torrents" default="http://kickass.to" />
-        <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.ac" />
+        <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.org" />
 
         <setting label="Google Analytics" type="lsep"/>
         <setting id="ga_disable" type="bool" label="Disable (except for index)" default="false" />
