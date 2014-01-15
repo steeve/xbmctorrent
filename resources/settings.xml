@@ -5,6 +5,9 @@
         <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable" />
         <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false" />
 
+        <setting label="Auto-unblocking (via Immunicity)" type="lsep"/>
+        <setting id="immunicity" type="bool" label="Enable" default="false" />
+
         <setting label="BitTorrent options" type="lsep" />
         <setting id="magnet_boost" label="Magnet Booster" type="bool" default="true" />
         <setting id="max_upload_rate" label="Max Upload Rate (kB/s)" type="number" default="" />
