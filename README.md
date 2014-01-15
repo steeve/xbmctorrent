@@ -13,7 +13,7 @@ http://www.youtube.com/watch?v=NQiC62ig3N0
 
 Download
 --------
-[plugin.video.xbmctorrent_0.5.1.zip](https://github.com/steeve/xbmctorrent/releases/download/v0.5.1/plugin.video.xbmctorrent-0.5.1.zip) (29 MB)
+[plugin.video.xbmctorrent_0.5.3.zip](https://github.com/steeve/xbmctorrent/releases/download/v0.5.3/plugin.video.xbmctorrent-0.5.3.zip) (30 MB)
 
 Follow XBMCtorrent
 ------------------
