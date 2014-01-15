@@ -13,7 +13,7 @@ http://www.youtube.com/watch?v=NQiC62ig3N0
 
 Download
 --------
-[plugin.video.xbmctorrent_0.5.3.zip](https://github.com/steeve/xbmctorrent/releases/download/v0.5.3/plugin.video.xbmctorrent-0.5.3.zip) (30 MB)
+Check out the [Releases](https://github.com/steeve/xbmctorrent/releases) tab to download the ZIP file.
 
 Follow XBMCtorrent
 ------------------
@@ -90,7 +90,9 @@ Please, file an issue :)
 #### How can I use the Play-to-XBMC feature?
 First of all, install [Play-to-XBMC](https://chrome.google.com/webstore/detail/play-to-xbmc/fncjhcjfnnooidlkijollckpakkebden) from khloke.
 Then, follow the Play-to-XBMC install instructions:
+
 > Setup:
+>
 > * On XBMC, go under System > Settings > Services > Webserver
 > * Enable "Allow control of XBMC via HTTP, leave the port as default or set it to something else (if you know what you're doing). Write down the port number.
 > * Username and password are optional
@@ -100,7 +102,8 @@ Then, follow the Play-to-XBMC install instructions:
 Once you've done all that, simply right click on any magnet link, and select Play-to-XBMC > Play. Boom.
 
 #### Provider X is blocked in my country/ISP, how can I set another domain?
-In the addon settings, go in Advancer > Custom Domains. Here to you can set each provider with whatever proxy you choose.
+Enable Auto-Unblock in the settings.
+If it still doesn't work, you can go in Advanced > Custom Domains. Here to you can set each provider with whatever proxy you choose.
 
 Changelog
 ---------
