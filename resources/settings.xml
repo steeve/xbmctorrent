@@ -28,7 +28,7 @@
 
         <setting label="Custom domains" type="lsep"/>
         <setting id="base_eztv" type="text" label="EZTV" default="http://eztv.it" />
-        <setting id="base_yify" type="text" label="YIFY Torrents" default="http://yify-torrents.com" />
+        <setting id="base_yify" type="text" label="YIFY Torrents" default="http://yts.re" />
         <setting id="base_kickass" type="text" label="Kickass Torrents" default="http://kickass.to" />
         <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.org" />
 
