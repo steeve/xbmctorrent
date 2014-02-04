@@ -5,7 +5,7 @@
         <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable" />
         <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false" />
 
-        <setting label="Auto-unblocking (via Immunicity)" type="lsep"/>
+        <setting label="Auto-unblock websites (via Immunicity)" type="lsep"/>
         <setting id="immunicity" type="bool" label="Enable" default="false" />
 
         <setting label="BitTorrent options" type="lsep" />
@@ -22,8 +22,6 @@
         <setting id="base_kickass" type="text" label="Kickass Torrents" default="http://kickass.to" />
         <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.org" />
 
-        <setting label="Pornographic Content" type="lsep"/>
-        <setting id="porn" type="bool" label="Enable" default="true" />
 
         <setting label="Google Analytics" type="lsep"/>
         <setting id="ga_disable" type="bool" label="Disable (except for index)" default="false" />
