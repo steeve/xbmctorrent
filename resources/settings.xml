@@ -33,6 +33,7 @@
         <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.org" />
         <setting id="base_nyaa" type="text" label="NyaaTorrents" default="http://www.nyaa.se" />
         <setting id="base_bitsnoop" type="text" label="NyaaTorrents" default="http://bitsnoop.com" />
+        <setting id="base_extratorrent" type="text" label="ExtraTorrent" default="http://extratorrent.cc" />
 
 
         <setting label="Google Analytics" type="lsep"/>
