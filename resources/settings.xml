@@ -20,7 +20,7 @@
         <setting id="encryption" label="Encryption" type="enum" values="Forced|Enabled|Disabled" default="1" />
     </category>
     <category label="Advanced">
-        <setting label="Pornographic Content" type="lsep"/>
+        <setting label="Adult Content" type="lsep"/>
         <setting id="porn" type="bool" label="Enable" default="true" />
 
         <setting label="Maintenance" type="lsep"/>
