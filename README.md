@@ -87,6 +87,13 @@ If you are blocking GA on your computer altogether, you'll still be able to use 
 #### How can I report a bug?
 Please, file an issue :)
 
+#### Torrents are suddenly paused and then interrupted/stopped. What can I do ?
+Probably your network is too slow and you are hitting a timeout used for HTTP on
+XBMC. You can increase the timeout as documented
+[here](http://wiki.xbmc.org/?title=Advancedsettings.xml#playlisttimeout). Please
+note that increasing the timeout won't make your network faster, you just will
+wait more time before the torrent is interrupted.
+
 #### How can I use the Play-to-XBMC feature?
 First of all, install [Play-to-XBMC](https://chrome.google.com/webstore/detail/play-to-xbmc/fncjhcjfnnooidlkijollckpakkebden) from khloke.
 Then, follow the Play-to-XBMC install instructions:
