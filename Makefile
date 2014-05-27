@@ -1,6 +1,6 @@
 NAME = plugin.video.xbmctorrent
 GIT = git
-GIT_VERSION = $(shell $(GIT) describe --always)
+GIT_VERSION = $(shell $(GIT) describe --tags --always)
 VERSION = $(patsubst v%,%,$(GIT_VERSION))
 ARCHS = windows_x86 darwin_x64 linux_x86 linux_x64 linux_arm android_arm
 ZIP_SUFFIX = zip
