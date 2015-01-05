@@ -1,3 +1,6 @@
+This project is not developed anymore and has been replaced by [Pulsar](https://github.com/steeve/plugin.video.pulsar).
+=======
+
 XBMCtorrent
 ===========
 
